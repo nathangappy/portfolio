@@ -121,8 +121,13 @@
 }
 
 /* Section: Contact */
+#contact {
+  height: auto;
+}
+
 .contact-form {
   width: 90%;
+  height: auto;
 }
 
 .contact-info {
@@ -147,8 +152,8 @@
   border: 1px solid #333;
   border-radius: 10px;
   background: #fff;
-  color: #04397E;
-  border: 1px solid #04397E;
+  color: #333;
+  border: 1px solid #333;
 }
 
 @media(max-width: 374px) {
