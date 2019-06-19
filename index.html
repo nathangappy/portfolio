@@ -17,10 +17,23 @@
   <nav id="nav">
     <h1 id="logo">Nathan Gappy</h1>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./index.html#about">About</a></li>
+      <li><a href="./work.html">Work</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <span class="open-slide">
+      <a href="#" onclick="openSideMenu()">
+        <img src="images/icon.svg" alt="">
+      </a>
+    </span>
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href="./index.html" onclick="closeSideMenu()">Home</a>
+      <a href="#about" onclick="closeSideMenu()">About</a>
+      <a href="./work.html" onclick="closeSideMenu()">Work</a>
+      <a href="#contact" onclick="closeSideMenu()">Contact</a>
+    </div>
   </nav>
 
   <!-- Landing -->
@@ -28,7 +41,7 @@
     <div id="landing-content">
       <h1>Full Stack JS Developer</h1>
       <p>Connecting Beautiful UIs with Efficient APIs</p>
-      <a href="#work">My Work</a>
+      <a href="./work.html">My Work</a>
     </div>
   </header>
 
@@ -57,5 +70,6 @@
     </div>
   </section>
 
+  <script src="./script.js"></script>
 </body>
 </html>
